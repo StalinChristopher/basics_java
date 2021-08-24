@@ -4,6 +4,7 @@ import com.yml.functionalbasicsjava.Distance;
 import com.yml.functionalbasicsjava.Quadratic;
 import com.yml.functionalbasicsjava.Triplets;
 import com.yml.functionalbasicsjava.TwoDArray;
+import com.yml.functionalbasicsjava.WindChill;
 public class Main {
 
 	public static void main(String[] args) {
@@ -34,7 +35,9 @@ public class Main {
 		
 //		Distance.distance(args);
 		
-		Quadratic.quadratic();
+//		Quadratic.quadratic();
+		
+		WindChill.windChill(args);
 		
 	}
 

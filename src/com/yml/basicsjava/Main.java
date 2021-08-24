@@ -5,7 +5,8 @@ public class Main {
 	public static void main(String[] args) {
 		
 //		FlipCoin.flipCoin();
-		LeapYear.leapYear();
+//		LeapYear.leapYear();
+		PowerOf2.power(args);
 	}
 
 }

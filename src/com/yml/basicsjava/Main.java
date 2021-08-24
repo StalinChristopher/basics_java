@@ -1,6 +1,7 @@
 package com.yml.basicsjava;
 import com.yml.corebasicjava.*;
 import com.yml.functionalbasicsjava.Distance;
+import com.yml.functionalbasicsjava.Quadratic;
 import com.yml.functionalbasicsjava.Triplets;
 import com.yml.functionalbasicsjava.TwoDArray;
 public class Main {
@@ -31,7 +32,9 @@ public class Main {
 		
 //		Triplets.triplets();
 		
-		Distance.distance(args);
+//		Distance.distance(args);
+		
+		Quadratic.quadratic();
 		
 	}
 

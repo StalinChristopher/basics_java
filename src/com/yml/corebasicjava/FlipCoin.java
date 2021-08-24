@@ -3,7 +3,7 @@ import java.util.*;
 
 public class FlipCoin {
 	
-	public void flipCoin() {
+	public static void flipCoin() {
 		int n; //number of times to flip a coin
 		double ranValue;
 		double headCount=0;

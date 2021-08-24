@@ -1,5 +1,6 @@
 package com.yml.basicsjava;
 import com.yml.corebasicjava.*;
+import com.yml.functionalbasicsjava.TwoDArray;
 public class Main {
 
 	public static void main(String[] args) {
@@ -22,7 +23,9 @@ public class Main {
 		
 //		VowelConsonants.vowelConsonantsMethod();
 		
-		LargestOfThreeNumbers.largestMethod();
+//		LargestOfThreeNumbers.largestMethod();
+		
+		TwoDArray.arrayMethod();
 		
 	}
 

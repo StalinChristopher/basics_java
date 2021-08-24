@@ -7,7 +7,8 @@ public class Main {
 //		FlipCoin.flipCoin();
 //		LeapYear.leapYear();
 //		PowerOf2.power(args);
-		Harmonic.harmonicMethod();
+//		Harmonic.harmonicMethod();
+		Factors.factorMethod();
 	}
 
 }

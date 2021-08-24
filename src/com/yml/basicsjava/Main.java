@@ -8,7 +8,8 @@ public class Main {
 //		LeapYear.leapYear();
 //		PowerOf2.power(args);
 //		Harmonic.harmonicMethod();
-		Factors.factorMethod();
+//		Factors.factorMethod();
+		QuotientAndRemainder.quotientRemainderMethod();
 	}
 
 }

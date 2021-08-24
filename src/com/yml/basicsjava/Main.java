@@ -10,7 +10,8 @@ public class Main {
 //		Harmonic.harmonicMethod();
 //		Factors.factorMethod();
 //		QuotientAndRemainder.quotientRemainderMethod();
-		SwapNumbers.swap();
+//		SwapNumbers.swap();
+		EvenOdd.evenOddMethod();
 	}
 
 }

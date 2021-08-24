@@ -20,7 +20,9 @@ public class Main {
 		
 //		EvenOdd.evenOddMethod();
 		
-		VowelConsonants.vowelConsonantsMethod();
+//		VowelConsonants.vowelConsonantsMethod();
+		
+		LargestOfThreeNumbers.largestMethod();
 		
 	}
 

@@ -1,5 +1,6 @@
 package com.yml.basicsjava;
 import com.yml.corebasicjava.*;
+import com.yml.functionalbasicsjava.Distance;
 import com.yml.functionalbasicsjava.Triplets;
 import com.yml.functionalbasicsjava.TwoDArray;
 public class Main {
@@ -28,7 +29,9 @@ public class Main {
 		
 //		TwoDArray.arrayMethod();
 		
-		Triplets.triplets();
+//		Triplets.triplets();
+		
+		Distance.distance(args);
 		
 	}
 

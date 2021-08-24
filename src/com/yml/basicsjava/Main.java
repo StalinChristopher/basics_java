@@ -9,7 +9,8 @@ public class Main {
 //		PowerOf2.power(args);
 //		Harmonic.harmonicMethod();
 //		Factors.factorMethod();
-		QuotientAndRemainder.quotientRemainderMethod();
+//		QuotientAndRemainder.quotientRemainderMethod();
+		SwapNumbers.swap();
 	}
 
 }

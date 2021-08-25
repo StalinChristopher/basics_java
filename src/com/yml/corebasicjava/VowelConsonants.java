@@ -6,7 +6,7 @@ public class VowelConsonants {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Enter the character");
 		char c = in.next().charAt(0);
-		
+		c=Character.toLowerCase(c);
 		if( c=='a' || c=='e' || c=='i'|| c=='o' || c=='u') {
 			System.out.println(c+" is a vowel");
 		}

@@ -5,6 +5,12 @@ import com.yml.functionalbasicsjava.Quadratic;
 import com.yml.functionalbasicsjava.Triplets;
 import com.yml.functionalbasicsjava.TwoDArray;
 import com.yml.functionalbasicsjava.WindChill;
+import com.yml.logicalbasicsjava.CouponNumbers;
+import com.yml.logicalbasicsjava.Fibonacci;
+import com.yml.logicalbasicsjava.PerfectNumber;
+import com.yml.logicalbasicsjava.PrimeNumber;
+import com.yml.logicalbasicsjava.ReverseNumber;
+import com.yml.logicalbasicsjava.StopWatch;
 public class Main {
 
 	public static void main(String[] args) {
@@ -37,7 +43,21 @@ public class Main {
 		
 //		Quadratic.quadratic();
 		
-		WindChill.windChill(args);
+//		WindChill.windChill(args);
+		
+//    --------------------------------------
+		
+//		Fibonacci.fibonacci();
+		
+//		PerfectNumber.perfectNum(); 
+		
+//		PrimeNumber.prime();
+		
+//		ReverseNumber.reverse();
+		
+//		CouponNumbers.main(args);;
+		
+		StopWatch.main(args);
 		
 	}
 

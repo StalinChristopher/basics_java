@@ -6,6 +6,7 @@ import com.yml.functionalbasicsjava.Triplets;
 import com.yml.functionalbasicsjava.TwoDArray;
 import com.yml.functionalbasicsjava.WindChill;
 import com.yml.logicalbasicsjava.Fibonacci;
+import com.yml.logicalbasicsjava.PerfectNumber;
 public class Main {
 
 	public static void main(String[] args) {
@@ -42,7 +43,9 @@ public class Main {
 		
 //    --------------------------------------
 		
-		Fibonacci.fibonacci();
+//		Fibonacci.fibonacci();
+		
+		PerfectNumber.perfectNum();
 		
 	}
 

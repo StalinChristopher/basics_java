@@ -7,6 +7,7 @@ import com.yml.functionalbasicsjava.TwoDArray;
 import com.yml.functionalbasicsjava.WindChill;
 import com.yml.logicalbasicsjava.Fibonacci;
 import com.yml.logicalbasicsjava.PerfectNumber;
+import com.yml.logicalbasicsjava.PrimeNumber;
 public class Main {
 
 	public static void main(String[] args) {
@@ -45,7 +46,9 @@ public class Main {
 		
 //		Fibonacci.fibonacci();
 		
-		PerfectNumber.perfectNum();
+//		PerfectNumber.perfectNum(); 
+		
+		PrimeNumber.prime();
 		
 	}
 

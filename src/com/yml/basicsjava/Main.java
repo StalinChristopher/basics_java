@@ -5,6 +5,7 @@ import com.yml.functionalbasicsjava.Quadratic;
 import com.yml.functionalbasicsjava.Triplets;
 import com.yml.functionalbasicsjava.TwoDArray;
 import com.yml.functionalbasicsjava.WindChill;
+import com.yml.logicalbasicsjava.CouponNumbers;
 import com.yml.logicalbasicsjava.Fibonacci;
 import com.yml.logicalbasicsjava.PerfectNumber;
 import com.yml.logicalbasicsjava.PrimeNumber;
@@ -51,7 +52,9 @@ public class Main {
 		
 //		PrimeNumber.prime();
 		
-		ReverseNumber.reverse();
+//		ReverseNumber.reverse();
+		
+		CouponNumbers.main(args);;
 		
 	}
 

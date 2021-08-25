@@ -1,5 +1,6 @@
 package com.yml.logicalbasicsjava;
 
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class StopWatch {
@@ -9,7 +10,7 @@ public class StopWatch {
 	{
 		startTime = System.currentTimeMillis();
 		System.out.println("Stop watch started");
-		System.out.println("Start time = "+startTime+"ms");
+		printTime(startTime);
 	}
 	
 	//stop the timer
@@ -17,13 +18,13 @@ public class StopWatch {
 	{
 		stopTime=System.currentTimeMillis();
 		System.out.println("Stop watch stopped");
-		System.out.println("Stop time = "+stopTime+ "ms");
+		printTime(stopTime);
 	}
 	
 	//calculate the time elapsed 
 	public static long getElapsedTime()
 	{
-		return stopTime-startTime;
+		return (stopTime-startTime)/1000;
 	}
 	//main
 	public static void main(String[] args) 
@@ -38,9 +39,15 @@ public class StopWatch {
 			if(n==2)
 			{
 				stopTimer();
-				System.out.println("The elapsed time between start and end is "+getElapsedTime()+"ms");
+				System.out.println("The elapsed time between start and end is "+getElapsedTime()+"s");
 			}
 			sc.close();
-		}
+	}
+	
+	public static void printTime(long time){
+        Date date = new Date(time);
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("hh:mm:ss");
+		System.out.println("time = "+simpleDateFormat.format(date));
+    }
 
 }

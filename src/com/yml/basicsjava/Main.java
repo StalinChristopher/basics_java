@@ -5,6 +5,7 @@ import com.yml.functionalbasicsjava.Quadratic;
 import com.yml.functionalbasicsjava.Triplets;
 import com.yml.functionalbasicsjava.TwoDArray;
 import com.yml.functionalbasicsjava.WindChill;
+import com.yml.logicalbasicsjava.Fibonacci;
 public class Main {
 
 	public static void main(String[] args) {
@@ -37,7 +38,11 @@ public class Main {
 		
 //		Quadratic.quadratic();
 		
-		WindChill.windChill(args);
+//		WindChill.windChill(args);
+		
+//    --------------------------------------
+		
+		Fibonacci.fibonacci();
 		
 	}
 

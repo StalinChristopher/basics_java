@@ -8,6 +8,7 @@ import com.yml.functionalbasicsjava.WindChill;
 import com.yml.logicalbasicsjava.Fibonacci;
 import com.yml.logicalbasicsjava.PerfectNumber;
 import com.yml.logicalbasicsjava.PrimeNumber;
+import com.yml.logicalbasicsjava.ReverseNumber;
 public class Main {
 
 	public static void main(String[] args) {
@@ -48,7 +49,9 @@ public class Main {
 		
 //		PerfectNumber.perfectNum(); 
 		
-		PrimeNumber.prime();
+//		PrimeNumber.prime();
+		
+		ReverseNumber.reverse();
 		
 	}
 

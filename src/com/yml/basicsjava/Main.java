@@ -5,6 +5,7 @@ import com.yml.functionalbasicsjava.Quadratic;
 import com.yml.functionalbasicsjava.Triplets;
 import com.yml.functionalbasicsjava.TwoDArray;
 import com.yml.functionalbasicsjava.WindChill;
+import com.yml.junitbasicsjava.VendingMachine;
 import com.yml.logicalbasicsjava.CouponNumbers;
 import com.yml.logicalbasicsjava.Fibonacci;
 import com.yml.logicalbasicsjava.PerfectNumber;
@@ -59,7 +60,11 @@ public class Main {
 //		CouponNumbers.main(args);
 
 		
-		StopWatch.main(args);
+//		StopWatch.main(args);
+		
+//		-------------------------------------
+		
+		VendingMachine.vendingMachine();
 		
 	}
 

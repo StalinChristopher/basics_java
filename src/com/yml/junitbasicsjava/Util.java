@@ -25,4 +25,13 @@ public final class Util {
         	return (temp-32)*((double)5/9);
         }
 	}
+	
+	public static double monthlyPayment(double principal, int year, double rate){
+        
+        double modifiedRate = rate / (12 * 100);
+        double n = 12 * year;
+
+        return (principal*modifiedRate)/(1-Math.pow(1+modifiedRate, -n));
+
+    }
 }

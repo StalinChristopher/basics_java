@@ -6,6 +6,7 @@ import com.yml.functionalbasicsjava.Triplets;
 import com.yml.functionalbasicsjava.TwoDArray;
 import com.yml.functionalbasicsjava.WindChill;
 import com.yml.junitbasicsjava.DayOfWeek;
+import com.yml.junitbasicsjava.MonthlyPayment;
 import com.yml.junitbasicsjava.TemperatureConversion;
 import com.yml.junitbasicsjava.VendingMachine;
 import com.yml.logicalbasicsjava.CouponNumbers;
@@ -70,7 +71,9 @@ public class Main {
 		
 //		DayOfWeek.run(args);
 		
-		TemperatureConversion.run();
+//		TemperatureConversion.run();
+		
+		MonthlyPayment.run(args);
 		
 		
 	}

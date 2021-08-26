@@ -6,6 +6,7 @@ import com.yml.functionalbasicsjava.Triplets;
 import com.yml.functionalbasicsjava.TwoDArray;
 import com.yml.functionalbasicsjava.WindChill;
 import com.yml.junitbasicsjava.DayOfWeek;
+import com.yml.junitbasicsjava.TemperatureConversion;
 import com.yml.junitbasicsjava.VendingMachine;
 import com.yml.logicalbasicsjava.CouponNumbers;
 import com.yml.logicalbasicsjava.Fibonacci;
@@ -67,7 +68,9 @@ public class Main {
 		
 //		VendingMachine.vendingMachine();
 		
-		DayOfWeek.run(args);
+//		DayOfWeek.run(args);
+		
+		TemperatureConversion.run();
 		
 		
 	}

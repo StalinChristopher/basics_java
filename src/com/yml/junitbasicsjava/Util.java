@@ -16,4 +16,13 @@ public final class Util {
 		
 		return d0;
 	}
+	
+	public static double temperatureConversion(double temp, char type){
+		if(type == 'C'){
+            return (temp*(9/5)) + 32;
+        }
+        else{
+        	return (temp-32)*((double)5/9);
+        }
+	}
 }

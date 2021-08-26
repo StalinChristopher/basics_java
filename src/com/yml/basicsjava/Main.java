@@ -5,6 +5,7 @@ import com.yml.functionalbasicsjava.Quadratic;
 import com.yml.functionalbasicsjava.Triplets;
 import com.yml.functionalbasicsjava.TwoDArray;
 import com.yml.functionalbasicsjava.WindChill;
+import com.yml.junitbasicsjava.DayOfWeek;
 import com.yml.junitbasicsjava.VendingMachine;
 import com.yml.logicalbasicsjava.CouponNumbers;
 import com.yml.logicalbasicsjava.Fibonacci;
@@ -64,7 +65,10 @@ public class Main {
 		
 //		-------------------------------------
 		
-		VendingMachine.vendingMachine();
+//		VendingMachine.vendingMachine();
+		
+		DayOfWeek.run(args);
+		
 		
 	}
 

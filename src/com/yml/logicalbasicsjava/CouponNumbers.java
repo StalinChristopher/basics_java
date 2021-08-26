@@ -12,8 +12,6 @@ public class CouponNumbers {
 		return r.nextInt(10);
 	}
 
-	// check if the random number generated is present in the array and remove it
-	// from the array if its present
 	public static boolean process(int x) {
 		int index = dis_arr.indexOf(x);
 		if (index != -1) {

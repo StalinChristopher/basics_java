@@ -5,6 +5,7 @@ import com.yml.functionalbasicsjava.Quadratic;
 import com.yml.functionalbasicsjava.Triplets;
 import com.yml.functionalbasicsjava.TwoDArray;
 import com.yml.functionalbasicsjava.WindChill;
+import com.yml.junitbasicsjava.BinaryDecimal;
 import com.yml.junitbasicsjava.DayOfWeek;
 import com.yml.junitbasicsjava.MonthlyPayment;
 import com.yml.junitbasicsjava.SquareRoot;
@@ -76,7 +77,9 @@ public class Main {
 		
 //		MonthlyPayment.run(args);
 		
-		SquareRoot.squareRoot();
+//		SquareRoot.squareRoot();
+		
+		BinaryDecimal.run();
 	}
 
 }

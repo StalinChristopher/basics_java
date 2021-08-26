@@ -12,6 +12,7 @@ public class BinaryDecimal {
 			System.out.println("Please enter a positive number");
 			num = in.nextInt();
 		}
+		System.out.println("\nAfter converting to binary form");
 		Util.toBinary(num);
 	}
 
